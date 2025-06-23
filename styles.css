@@ -1,63 +1,29 @@
-#div1 {
-  background-image: url("https://picsum.photos/id/237/200/300");
-  height: 300px;
-  width: 200px;
-  margin: 20px;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fff;
 }
 
-#div2 {
-  background-image: url("https://picsum.photos/seed/picsum/200/300");
-  height: 300px;
-  width: 200px;
-  margin: 20px;
-}
-
-#div3 {
-  background-image: url("https://picsum.photos/200/300?grayscale");
-  height: 300px;
-  width: 200px;
-  margin: 20px;
-}
-
-#div4 {
-  background-image: url("https://picsum.photos/200/300/");
-  height: 300px;
-  width: 200px;
-  margin: 20px;
-}
-
-#div5 {
-  background-image: url("https://picsum.photos/200/300.jpg");
-  height: 300px;
-  width: 200px;
-  margin: 20px;
-}
-
-#div6 {
-  background-image: url("https://picsum.photos/id/102/200/300");
-  height: 300px;
-  width: 200px;
-  margin: 20px;
-}
-
-div.container {
-  border: 5px solid #555;
-}
-
-.flex {
+.container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
-.selected {
-  border: 5px solid rgb(0, 195, 255);
+.draggable {
+  width: 100px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #ccc;
+  cursor: grab;
 }
 
-p {
-  text-align: center;
-}
-
-button {
-  margin: 20px;
-}
+#div1 { background-image: url('https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg'); }
+#div2 { background-image: url('https://images.pexels.com/photos/192320/pexels-photo-192320.jpeg'); }
+#div3 { background-image: url('https://images.pexels.com/photos/1006121/pexels-photo-1006121.jpeg'); }
+#div4 { background-image: url('https://images.pexels.com/photos/957089/veil-cases-waterfall-autumn-alpine-957089.jpeg'); }
+#div5 { background-image: url('https://images.pexels.com/photos/748992/pexels-photo-748992.jpeg'); }
+#div6 { background-image: url('https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg'); }
